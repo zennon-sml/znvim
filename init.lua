@@ -15,4 +15,5 @@ vim.opt.rtp:prepend(lazypath)
 require("genos/keymaps")
 require("genos/vim-options")
 require("lazy").setup("plugins")
+-- dont need to require the plugins as long as they are in plugins/
 
